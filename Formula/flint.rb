@@ -1,26 +1,26 @@
 class Flint < Formula
   desc "Flint Pay command-line interface"
   homepage "https://withflintpay.com"
-  version "0.10.0"
+  version "0.11.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.10.0/flint_0.10.0_darwin_arm64.tar.gz"
-      sha256 "c54ce14b7e4eb902bd0cf5762da6599096b7afc63264b50b653d331f933f4774"
+      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.11.0/flint_0.11.0_darwin_arm64.tar.gz"
+      sha256 "7d599acd36515e129e22cbc568e703a4cbc0bd6d1eae1f6bb1d13c23770a5f19"
     else
-      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.10.0/flint_0.10.0_darwin_amd64.tar.gz"
-      sha256 "e7137b0a73a1bfbf376612375388a1a8a7ebc1e5419d3e9171f9afa70a5c6f73"
+      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.11.0/flint_0.11.0_darwin_amd64.tar.gz"
+      sha256 "902480d4ba007b610368688d58001f2f7e831ddb9e9668ffcf4e06b5bf3e8557"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.10.0/flint_0.10.0_linux_arm64.tar.gz"
-      sha256 "e90ad4a97e592757873fb43ab825df1cb367390a9934c3f0c6fbc070e378aeb2"
+      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.11.0/flint_0.11.0_linux_arm64.tar.gz"
+      sha256 "9d4a132ee49b4bec7b76e2c2ac795dd55bfdbfa53dc227d6848701b9473c9562"
     else
-      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.10.0/flint_0.10.0_linux_amd64.tar.gz"
-      sha256 "d81f8dca3aede35d2cc552e86e799a6cce68bec756848fec83ff51789d3beaee"
+      url "https://github.com/flint-pay/flint-cli/releases/download/cli%2Fv0.11.0/flint_0.11.0_linux_amd64.tar.gz"
+      sha256 "dcca37506824261b7b268ef4ef8a0b581a70a093545d8edf37e55946b6ae7bfb"
     end
   end
 
